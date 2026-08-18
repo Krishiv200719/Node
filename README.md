@@ -31,8 +31,8 @@ node introduction.js
 
 ### App.js Output
 
-![App.js Output](screenshots/app.png)
+![App.js Output](./Screenshots/app.png)
 
 ### Introduction.js Output
 
-![Introduction.js Output](screenshots/intro.png)
+![Introduction.js Output](./Screenshots/intro.png)
