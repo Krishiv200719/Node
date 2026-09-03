@@ -199,4 +199,4 @@ Each stage takes approximately **2 seconds**, so the complete successful process
 
 ## Output Screenshot
 
-![App.js Output](./Screenshots/Output.png)
+![Output](./Screenshots/Output.png)
