@@ -1,2 +1,8 @@
 node_modules/
 .DS_Store
+package-lock.json
+package.json
+data.json
+/MongoDB
+index.js
+second.js
