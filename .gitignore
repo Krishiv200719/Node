@@ -3,3 +3,8 @@ node_modules/
 .env
 *.log
 /MongoDB/
+/data.json
+/index.js
+/package-lock.json
+/package.json
+/second.js
