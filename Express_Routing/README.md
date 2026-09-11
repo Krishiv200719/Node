@@ -11,7 +11,7 @@ The assignments demonstrate how to create dynamic routes and retrieve data from 
 ## Project Structure
 
 ```text
-ExpressLab/
+Express_Routing/
 │
 ├── Assignment_1/
 │   ├── app.js
