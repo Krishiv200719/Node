@@ -55,35 +55,35 @@ node server.js
 
 **1. Server started and connected to MongoDB (from Assignment 8):**
 
-![Server running - Assignment 8](./screenshots/1.png)
+![Server running - Assignment 8](./Screenshots/1.png)
 
 **2. Added a new user via POST `/api/users`:**
 
-![POST add user](./screenshots/2.png)
+![POST add user](./Screenshots/2.png)
 
 **3. User document created in MongoDB (Compass):**
 
-![New user in Compass](./screenshots/3.png)
+![New user in Compass](./Screenshots/3.png)
 
 **4. Updated the user's `age` and `course` via PATCH `/api/users/:id`:**
 
-![PATCH update user](./screenshots/4.png)
+![PATCH update user](./Screenshots/4.png)
 
 **5. Updated document reflected in MongoDB (Compass):**
 
-![Updated document in Compass](./screenshots/5.png)
+![Updated document in Compass](./Screenshots/5.png)
 
 **6. Deleted the user via DELETE `/api/users/:id`:**
 
-![DELETE user](./screenshots/6.png)
+![DELETE user](./Screenshots/6.png)
 
 **7. Collection empty after deletion (Compass):**
 
-![Empty collection in Compass](./screenshots/7.png)
+![Empty collection in Compass](./Screenshots/7.png)
 
 **8. Server console log confirming update and delete operations:**
 
-![Server console log](./screenshots/8.png)
+![Server console log](./Screenshots/8.png)
 
 ## Conclusion
 
