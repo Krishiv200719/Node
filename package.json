@@ -1,0 +1,32 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "firebase-admin": "^14.4.0",
+    "joi": "^18.2.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Krishiv200719/Node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Krishiv200719/Node/issues"
+  },
+  "homepage": "https://github.com/Krishiv200719/Node#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

@@ -1,18 +1,14 @@
 const { initializeApp, cert } = require("firebase-admin/app");
 const { getFirestore } = require("firebase-admin/firestore");
-const path = require("path");
 
-const serviceAccount = require(
-  path.join(__dirname, "..", "serviceAccountKey.json")
-);
+const serviceAccount = require("../assignment-10-700bd-firebase-adminsdk-fbsvc-1df2f76861.json");
 
-const firebaseApp = initializeApp({
-  credential: cert(serviceAccount),
-  projectId: serviceAccount.project_id
+initializeApp({
+    credential: cert(serviceAccount)
 });
 
-const db = getFirestore(firebaseApp, "assignment10");
+const db = getFirestore();
 
-console.log("Firebase Firestore connected successfully!");
+console.log("Firebase connected successfully");
 
 module.exports = db;
