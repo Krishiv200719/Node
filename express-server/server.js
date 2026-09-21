@@ -3,9 +3,19 @@ const express = require("express");
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+// Middleware
 app.use(express.json());
 
-// GET - Fetch all users
+// Users data
+let users = [
+    {
+        id: 1,
+        name: "Krishiv",
+        email: "krishiv@example.com"
+    }
+];
+
+// GET Route - Get all users
 app.get("/users", (req, res) => {
     res.status(200).json({
         message: "Users fetched successfully",
@@ -13,7 +23,7 @@ app.get("/users", (req, res) => {
     });
 });
 
-// POST - Add a new user
+// POST Route - Create a new user
 app.post("/users", (req, res) => {
     const { name, email } = req.body;
 
@@ -31,7 +41,7 @@ app.post("/users", (req, res) => {
     });
 });
 
-// Start server
+// Start Server
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });
