@@ -20,28 +20,28 @@ The objective of this assignment is to:
 ### 1. Successful Firebase Connection and Server Startup
 Server initialization on port 5000 confirming successful Firebase connection.
 
-![Firebase Connection and Server Startup](./screenshots/1.png)
+![Firebase Connection and Server Startup](./Screenshots/1.png)
 
 ---
 
 ### 2. Successful POST Request (Thunder Client)
 Thunder Client executing a `POST` request to `/api/users` with valid data, returning `201 Created` with a new `userId`.
 
-![Successful POST Request](./screenshots/2.png)
+![Successful POST Request](./Screenshots/2.png)
 
 ---
 
 ### 3. Stored Document in Firebase Firestore Console
 Firebase Cloud Firestore console verifying the new document saved inside the `users` collection.
 
-![Firestore Document](./screenshots/3.png)
+![Firestore Document](./Screenshots/3.png)
 
 ---
 
 ### 4. Schema Validation Error Handling
 Thunder Client testing `POST /api/users` with invalid inputs, returning `400 Bad Request` with specific validation error messages.
 
-![Validation Error Response](./screenshots/4.png)
+![Validation Error Response](./Screenshots/4.png)
 
 ---
 
