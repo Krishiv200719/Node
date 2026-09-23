@@ -59,7 +59,7 @@ Thunder Client executing a `POST` request to `/login` and receiving a JWT token.
 
 Thunder Client executing a `GET` request to `/profile` with a valid Bearer token and receiving the authenticated user's profile.
 
-![Protected Profile Request](./Screenshots/5.png)
+![Protected Profile Request](./Screenshots/6.png)
 
 ---
 
@@ -67,6 +67,6 @@ Thunder Client executing a `GET` request to `/profile` with a valid Bearer token
 
 Thunder Client testing missing fields, duplicate registration, invalid credentials, and invalid or expired tokens.
 
-![Authentication Error Handling](./Screenshots/6.png)
+![Authentication Error Handling](./Screenshots/5.png)
 
 ---
